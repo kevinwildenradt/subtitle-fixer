@@ -29,8 +29,8 @@ public class SrtFixer {
         
         // starting at the first time window line, add the specified number
         // of milliseconds to start and end time
-        
         for (String line : lineList) {
+            
             //If a line contains a TIME_SEPARATOR, split it into the two times on either side of the separator.
             if (line.contains(TIME_SEPARATOR)) {
 		  		String[] times=line.split(TIME_SEPARATOR);
