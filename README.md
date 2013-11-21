@@ -6,4 +6,4 @@ Java command line tool to shift the display time of subtitles in a plain .srt fi
 usage:
 
 compile: javac SrtFixer.java
-    run: java SrtFixer <input file> <millisecond shift (negative for backwards shift)> > <output file>
+    run: java SrtFixer (input file) (millisecond shift, negative for backwards shift) > (output file)
